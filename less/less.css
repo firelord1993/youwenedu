@@ -1,0 +1,530 @@
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+  margin: 0;
+  padding: 0;
+}
+* li {
+  list-style: none;
+}
+* a {
+  text-decoration: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.block {
+  display: block;
+}
+.title {
+  width: 1200px;
+  height: 55px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+.title .titleImg {
+  float: left;
+}
+.title .titleli {
+  float: right;
+}
+.title .titleli ul {
+  margin-right: 30px;
+}
+.title .titleli ul span {
+  float: right;
+  position: relative;
+  display: block;
+  margin-left: 10px;
+  width: 200px;
+}
+.title .titleli ul span span {
+  display: block;
+  margin-left: 20px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 6px;
+}
+.title .titleli ul li {
+  float: left;
+}
+.title .titleli ul li:hover a {
+  border-bottom: 3px solid red;
+  color: red;
+}
+.title .titleli ul li a {
+  color: black;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  width: 75px;
+  height: 55px;
+}
+.title .titleli ul li:nth-last-child(2) a {
+  display: block;
+  width: 75px;
+  height: 55px;
+}
+.carousela {
+  width: 100%;
+  height: 600px;
+}
+.carousela .swiper-container {
+  width: 100%;
+  height: 600px;
+}
+.carousela .swiper-container a {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+.carousela .swiper-container .swiper-wrapper .swiper-slide {
+  position: relative;
+}
+.carousela .swiper-container .swiper-wrapper .swiper-slide .mfyya {
+  width: 190px;
+  height: 60px;
+  background-color: #ff000e;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  right: 220px;
+  bottom: 200px;
+  font-size: 21px;
+}
+.carousela .swiper-container .swiper-wrapper .swiper-slide .mfyyb {
+  width: 190px;
+  height: 60px;
+  background-color: #ff000e;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  right: 220px;
+  bottom: 200px;
+  font-size: 21px;
+  position: absolute;
+  left: 525px;
+  bottom: 180px;
+}
+.carousela .button-prev,
+.carousela .button-next {
+  position: absolute;
+  top: 250px;
+  z-index: 99;
+  opacity: 0.5;
+}
+.carousela .button-prev img,
+.carousela .button-next img {
+  width: 75px;
+}
+.carousela .button-next {
+  right: 60px;
+}
+/* 
+ *第二屏 
+ * */
+.twoTitle p {
+  text-align: center;
+  line-height: 2;
+}
+.twoTitle .mainTitle {
+  font-size: 36px;
+}
+.twoTitle .mainTitle span {
+  font-size: 40.5px;
+  color: red;
+}
+.twoTitle .subTitle {
+  font-size: 22.5px;
+  color: #999;
+}
+.twoCon div {
+  z-index: 999;
+  padding-top: 300px;
+  float: left;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 80px;
+}
+.twoCon div .bga:hover {
+  background: url(../img/headico2.png) no-repeat 43px 8px;
+}
+.twoCon div .bgb:hover {
+  background: url(../img/server2.png) no-repeat 43px 8px;
+}
+.twoCon div .bgc:hover {
+  background: url(../img/teach2.png) no-repeat 43px 8px;
+}
+.twoCon div span {
+  position: absolute;
+  top: 120px;
+  display: block;
+  width: 350px;
+  height: 350px;
+}
+.twoCon div .tcb {
+  color: #666;
+  font-size: 21px;
+  width: 300px;
+  line-height: 1.4;
+}
+.twoCon div .tca {
+  margin: 40px 0;
+  font-size: 27px;
+}
+.mfyyc {
+  width: 190px;
+  height: 60px;
+  background-color: #ff000e;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  right: 44%;
+  bottom: 0px;
+  font-size: 21px;
+}
+.nianji {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.nianji div {
+  display: inline-block;
+  width: 220px;
+  height: 60px;
+  border: red 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 25.5px;
+  color: red;
+  margin: 0 20px;
+}
+.kemu .kemu3,
+.kemu .kemu2,
+.kemu .kemu4 {
+  display: none;
+}
+.kemu > div {
+  text-align: center;
+}
+.kemu > div div {
+  display: inline-block;
+  border: 1px red solid;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22.5px;
+  color: red;
+  border-radius: 10px;
+}
+.neirong {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+.neirong .xxnr {
+  position: absolute;
+  margin: 0 77px;
+  width: -54%;
+  height: 450px;
+  background: blue;
+}
+.neirong .xxnr .xxyw div {
+  position: relative;
+  display: inline-block;
+}
+.neirong .xxnr .xxyw .xxywone {
+  width: 230px;
+  height: 245px;
+  bottom: 16px;
+  position: absolute;
+}
+.neirong .xxnr .xxyw .xxywone p {
+  color: #fdb62b;
+  font-size: 34px;
+  line-height: 1.5;
+}
+.neirong .xxnr .xxyw .xxywone div {
+  line-height: 1.5;
+  text-align: left;
+  padding: 30px 25px;
+  font-weight: normal;
+  font-size: 12px;
+  width: 230px;
+  height: 190px;
+  background: #fdb62b;
+  color: #fefff1;
+}
+.neirong .xxnr .xxyw .xxywtwo {
+  position: absolute;
+  width: 230px;
+  height: 290px;
+  bottom: 16px;
+  left: 240px;
+}
+.neirong .xxnr .xxyw .xxywtwo p {
+  color: #fdb62b;
+  font-size: 34px;
+  line-height: 1.5;
+}
+.neirong .xxnr .xxyw .xxywtwo div {
+  line-height: 1.5;
+  text-align: left;
+  padding: 50px 25px;
+  font-weight: normal;
+  font-size: 12px;
+  width: 230px;
+  height: 240px;
+  background: #fdb62b;
+  color: #fefff1;
+}
+.neirong .xxnr .xxyw .xxywthree {
+  width: 230px;
+  height: 340px;
+  bottom: 16px;
+  position: absolute;
+  left: 480px;
+}
+.neirong .xxnr .xxyw .xxywthree p {
+  color: #fc8b37;
+  font-size: 34px;
+  line-height: 1.5;
+}
+.neirong .xxnr .xxyw .xxywthree div {
+  line-height: 1.5;
+  text-align: left;
+  padding: 70px 25px;
+  font-weight: normal;
+  font-size: 12px;
+  width: 230px;
+  height: 290px;
+  background: #fc8b37;
+  color: #fefff1;
+}
+.neirong .xxnr .xxyw .xxywfour {
+  width: 230px;
+  height: 390px;
+  bottom: 16px;
+  position: absolute;
+  left: 720px;
+}
+.neirong .xxnr .xxyw .xxywfour p {
+  color: #fc8b37;
+  font-size: 34px;
+  line-height: 1.5;
+}
+.neirong .xxnr .xxyw .xxywfour div {
+  line-height: 1.5;
+  text-align: left;
+  padding: 90px 25px;
+  font-weight: normal;
+  font-size: 12px;
+  width: 230px;
+  height: 340px;
+  background: #fc8b37;
+  color: #fefff1;
+}
+.neirong .xxnr .xxyw .xxywfive {
+  width: 230px;
+  height: 440px;
+  bottom: 16px;
+  position: absolute;
+  left: 960px;
+}
+.neirong .xxnr .xxyw .xxywfive p {
+  color: #fe5454;
+  font-size: 34px;
+  line-height: 1.5;
+}
+.neirong .xxnr .xxyw .xxywfive div {
+  line-height: 1.5;
+  text-align: left;
+  padding: 110px 25px;
+  font-weight: normal;
+  font-size: 12px;
+  width: 230px;
+  height: 390px;
+  background: #fe5454;
+  color: #fefff1;
+}
+.fourp {
+  width: 100%;
+  height: 100%;
+}
+.fourp .mainTitle {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 36px;
+}
+.fourp .mainTitle span {
+  font-size: 40.5px;
+  color: red;
+}
+.fourp .fourcon {
+  padding-top: 30px;
+  width: 100%;
+  height: 420px;
+}
+.fourp .fourcon div {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+  width: 100%;
+  line-height: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.fourp .mfyyb {
+  width: 190px;
+  height: 60px;
+  background-color: #ff000e;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  right: 600px;
+  bottom: 60px;
+  font-size: 21px;
+}
+.fivep {
+  text-align: center;
+}
+.fivep .mainTitle {
+  font-size: 36px;
+}
+.fivep .mainTitle span {
+  font-size: 40.5px;
+  color: red;
+}
+.fivep .subTitle {
+  font-size: 22.5px;
+  color: #999;
+}
+.fivep .fivecon div {
+  width: 19%;
+  display: inline-block;
+}
+.fivep .mfyyb {
+  width: 190px;
+  height: 60px;
+  background-color: #ff000e;
+  line-height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  right: 600px;
+  bottom: 130px;
+  font-size: 21px;
+}
+.fsubmit {
+  z-index: 9999;
+  height: 60px;
+  line-height: 60px;
+  background-color: #4c4c4c;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+}
+.fsubmit input {
+  width: 210px;
+  height: 35px;
+}
+.fsubmit select {
+  width: 90px;
+  height: 35px;
+}
+.fsubmit .mfst {
+  margin-left: 30px;
+  display: inline-block;
+  border-radius: 5px;
+  width: 125px;
+  height: 38px;
+  background: red;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+  line-height: 38px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #333;
+  text-align: center;
+  line-height: 2;
+}
+.footer p {
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.footer p a {
+  color: #FFFFFF;
+  font-size: 12px;
+}
+.gotop {
+  z-index: 999;
+  position: fixed;
+  bottom: 150px;
+  right: 30px;
+}
+.gotop .gofh {
+  position: absolute;
+}
+.gotop .gofh .gotimg2 {
+  display: none;
+}
+.gotop .gofh:hover .gotimg {
+  display: none;
+}
+.gotop .gofh:hover .gotimg2 {
+  display: block;
+}
+.fivecon {
+  margin-top: 80px;
+}
+.fiveimg1 img {
+  width: 170PX;
+}
+.fiveimg2 {
+  position: relative;
+  bottom: 120px;
+}
+.fiveimg2 img {
+  width: 100px;
+}
+.fiveimg3 img {
+  width: 225PX;
+}
+.fiveimg4 {
+  position: relative;
+  bottom: 120px;
+}
+.fiveimg4 img {
+  width: 130PX;
+}
+.fiveimg5 img {
+  width: 170PX;
+}
+#a {
+  width: 1366px;
+  height: 100%;
+  margin: 0 auto;
+}
